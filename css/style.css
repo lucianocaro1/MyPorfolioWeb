@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inf{
+    cursor: pointer;
+}
+
+.navLateral{
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    width: 20vh;
+    padding: 5 0vh;
+}
+
+.logonf{
+    min-width: 80px;
+    width: 100%;
+    padding: 10 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.primerosIcons{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 200%;
+    list-style-type: none;
+}
+
+.primerosIcons a {
+    color: rgb(44, 43, 43);
+    transition-duration: 500ms;
+}
+
+.segundosIcons{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.segundosIcons a{
+    color: rgb(39, 38, 38);
+    transition-duration: 500ms;
+}
+
+.textyimg {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoSaludo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: -webkit-linear-gradient(180deg, #000000 0%, #1f1b1b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    min-width: 305px;
+    animation: forwards;
+}
+
+.foto{
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.cartasContactos{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    font-size: 200%;
+}
+
+.asd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 100vh;
+}
+
+.contenedorCc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 50%;
+    height: 100vh;
+}
+
+.cartasContactos a{
+    display: flex;
+    justify-content: center;
+    color: rgb(82, 82, 82);
+    width: 100%;
+    transition: 500ms;
+}
+
+.cartasContactos a:hover{
+    font-size: 300%;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 760px) {
+    body{
+        flex-wrap: wrap;
+    }
+    
+    .navLateral{
+        flex-direction: row;
+        width: 100vw;
+        height: 20vw;
+        flex-wrap: nowrap;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .logonf{
+        width: 10vh;
+        height: auto;
+    }
+
+    .primerosIcons{
+        flex-direction: row;
+        align-items: center;
+        height: 10vh;
+        width: 50vh;
+        justify-content: space-evenly;
+    }
+    
+    .primerosIcons a{
+        color: #7e7e7e;
+    }
+
+    .segundosIcons{
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-evenly;
+        height: 10vh;
+        width: 40vh;
+        margin: 0;
+    }
+
+    .segundosIcons a{
+        color:#7e7e7e;
+    }
+    
+    .textyimg {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .textoSaludo{
+        height: 20vh;
+    }
+
+    .foto{
+        height: 70vh;
+    }
+}
+
+.ccc{
+    display: flex;
+    align-items: center;
+}
+
+.col-sm-12{
+    display: flex;
+    padding: 0 0;
+    justify-content: center;
+    padding: 15px 0;
+    max-width: 300px;
+}
+
+.card{
+    display: flex;
+}
+
+.cartas{
+    display: flex;
+    width: 80%;
+}
+
+aside li a:hover{
+    color: blueviolet;
+}
+
+/* MODO OSCURO */
+
